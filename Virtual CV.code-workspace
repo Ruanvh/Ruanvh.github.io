@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../Firebase"
+		},
+		{
+			"path": "../../../../../xampp/htdocs/example-app"
+		}
+	],
+	"settings": {}
+}
