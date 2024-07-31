@@ -285,6 +285,84 @@ input, select, textarea {
 
 		}
 
+		.circle-img {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.interactive-img {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.view-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.interactive-img:hover .circle-img {
+    transform: scale(1.1);
+}
+
+.interactive-img:hover .view-text {
+    display: block;
+}
+
+<style>
+    .work-item {
+        position: relative;
+        display: inline-block;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .work-item:hover .overlay {
+        opacity: 1;
+    }
+
+    .image.fit.thumb {
+        display: block;
+        position: relative;
+    }
+
+    .circle-img {
+        border-radius: 10%;
+        width: 100%;
+		border: 1px solid #000000;
+    }
+
+    .overlay span {
+        visibility: hidden;
+    }
+
+    .work-item:hover .overlay span {
+        visibility: visible;
+    }
+</style>
+
 /* Row */
 
 	.row {
