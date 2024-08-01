@@ -34,20 +34,20 @@ Introduction: A brief self-introduction with a strong emphasis on professional q
 
 About Section
 A short paragraph highlighting personal attributes, work ethic, and collaborative spirit.
-Skills Section
 
+Skills Section
 Skills List: A comprehensive list of soft and technical skills presented in two columns for easy readability.
 Styling: Flexbox is used to align the columns and ensure they are evenly spaced.
-Experience Section
 
+Experience Section
 Coursework and Experience: Lists relevant academic courses and experiences that contribute to professional development.
 Styling: Similar to the skills section, flexbox is used to maintain a clean and organized layout.
-Programming Literacy Section
 
+Programming Literacy Section
 Programming Languages: Displayed using images and descriptions for Java, Python, C#, and C++.
 Portfolio Link: A button that links to the full portfolio PDF for a detailed view of accomplishments.
-Contact Information Section
 
+Contact Information Section
 Direct Contact Methods: Phone number and email address are provided with appropriate icons for easy identification.
 Social Media Links: GitHub and LinkedIn profiles are linked for further networking opportunities.
 
